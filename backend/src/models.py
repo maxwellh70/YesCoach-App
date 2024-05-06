@@ -19,6 +19,7 @@ class User(Base):
     goals = Column(ARRAY(String), default=['','',''])
     goals_quantity = Column(ARRAY(Integer), default=[0,0,0])
 
+#not needed for now:
 #     items: Mapped[List["HealthData"]] = relationship(back_populates="users")
 
 
